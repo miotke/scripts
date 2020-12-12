@@ -16,6 +16,7 @@ def main():
         body = i["body"]
 
         if i[user] == 2:
+            print(f"{user}\n")
             print(f"Title:{title}\nBody:{body}\n")
 
 
